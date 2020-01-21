@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "592736244049",
+    "firebase_url": "https://shelter-661dc.firebaseio.com",
+    "project_id": "shelter-661dc",
+    "storage_bucket": "shelter-661dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592736244049:android:b0631e6f9c21c3cf",
+        "android_client_info": {
+          "package_name": "cs2340.gatech.edu.lab4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592736244049-qj79384ved5lntf7h759c729an5nmqv8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cs2340.gatech.edu.lab4",
+            "certificate_hash": "7da985be5cddb772201d8ad72f4945b2084ced44"
+          }
+        },
+        {
+          "client_id": "592736244049-d04t631puq28t67aa5l1jl05r2ni9k6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQNGqpej2gtKGD5oqUS0GnKEVsfOmxmaI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592736244049-d04t631puq28t67aa5l1jl05r2ni9k6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
