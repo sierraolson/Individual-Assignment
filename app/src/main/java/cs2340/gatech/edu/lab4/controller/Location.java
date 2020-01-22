@@ -12,7 +12,7 @@ public class Location {
     private double _latitude;
     private double _longitude;
 
-    public static Location curLocation;
+    private static Location curLocation;
 
 //    public void init(double lat, double lon) {
 //        curLocation = new Location((lat, lon)
@@ -39,4 +39,16 @@ public class Location {
      * @return the longitude value
      */
     public double getLongitude() { return _longitude; }
+
+    public static void initCurLoc(double lat, double longit) {
+        curLocation = new Location(lat, longit);
+    }
+
+    public static Location getCurLoc() {
+        if (curLocation != null) {
+            return curLocation;
+        } else {
+            System.out.println("Not initialized CurLocation! Check ur GPS Sensors");
+        }
+    }
 }
