@@ -15,8 +15,10 @@ const requestHandler = (url) => new Promise((resolve, reject) => {
 exports.handler = async (event) => {
     if (event.httpMethod === 'GET') {
         let api_key = 'cf60835a202d9fe0cde90a932a4ff7ed';
-        let lat = '33.7490'
-        let lon = '-84.3880';
+        // let lat = '33.7490'
+        let lat = event.queryStringParameters.lat;
+        // let lon = '-84.3880';
+        let lon = event.queryStringParameters.lon;
         let url = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${api_key}`
         const { response, body } = await requestHandler(url);
         let weather = JSON.parse(body)
