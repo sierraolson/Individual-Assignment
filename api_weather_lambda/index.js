@@ -27,7 +27,7 @@ exports.handler = async (event) => {
         let temp_val = parseFloat(weather.main.temp);
         if (temp_val < 32) {
             determineDress = 'Below freezing right now! Bundle up!'
-        } else if (temp_val <= 32 && temp_val > 60) {
+        } else if (temp_val >= 32 && temp_val < 60) {
             determineDress = 'Kinda chilly, bring a jacket'
         } else {
             determineDress = 'Feel free to ditch the jacket!'
