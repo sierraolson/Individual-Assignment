@@ -7,7 +7,7 @@ This sample application was create for CS 4731
 Install Android Studio from the link below <br>
 https://developer.android.com/studio
 
-Open an existing project with the `FirstAssignment-master` folder.
+Open an existing project with the root of this folder `Individual-Assignment`.
 
 If the automatic build fails, it might be because you are missing Android SDK 26 and 26 Build-Tools, follow the prompted solutions in Android Studio and get those packages installed.
 
@@ -33,3 +33,17 @@ The `deployDress.zip` contains the source code for the lambda that the mobile ap
 Follow this guide and ignore the Lambda creation part for determining how to setup an API linked to a Lambda on AWS
 https://www.youtube.com/watch?v=4_WI8ZGIcXY
 
+
+## Running the App
+
+When you first open the app, you will be prompted with a login page. If this is your first time opening the app, be sure to register as a new user.
+
+![login](login.png)
+
+![reg](reg.png)
+
+And once you are logged in, navigate to the menu at the top right. Click on the `weather` tab. Click on the `Check the weather` button to get your suggestion!
+
+![weather1](weather1.png)
+
+![weather](weather.png)
