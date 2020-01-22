@@ -14,6 +14,11 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.google.gson.JsonIOException;
+import com.google.gson.JsonObject;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import cs2340.gatech.edu.lab4.R;
 
@@ -54,7 +59,19 @@ public class WeatherActivity extends Activity{
                                 @Override
                                 public void onResponse(String response) {
                                     // Display the first 500 characters of the response string
-                                    textView.setText("Response is: "+ response);
+                                    String out = "";
+                                    String out2 = "";
+                                    try {
+                                        JSONObject obj = new JSONObject(response);
+
+                                        out = obj.getString("message");
+                                        out2 = obj.getString("determineDress");
+
+                                    } catch (JSONException e) {}
+
+
+
+                                    textView.setText(out + " You should wear: " + out2);
 //                                    s[0] = response.substring(0, 500);
 
                                 }
