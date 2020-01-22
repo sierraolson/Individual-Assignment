@@ -22,5 +22,5 @@ Be sure to create a new Anroid Emulated Device running Oreo 8.1!
 Create a new configuration using the following
 ![build 1](build1.png)
 
-### AWS
+From here you can start up the emulator and it should have the app running in the emulator
 
