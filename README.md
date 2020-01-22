@@ -24,3 +24,12 @@ Create a new configuration using the following
 
 From here you can start up the emulator and it should have the app running in the emulator
 
+### AWS Setup
+
+The API and Lambda should have already been deployed. However if for some reason you want to deploy your own or need to re-deploy...
+
+The `deployDress.zip` contains the source code for the lambda that the mobile application hits when determining how to dress based on current whether conditions.
+
+Follow this guide and ignore the Lambda creation part for determining how to setup an API linked to a Lambda on AWS
+https://www.youtube.com/watch?v=4_WI8ZGIcXY
+
