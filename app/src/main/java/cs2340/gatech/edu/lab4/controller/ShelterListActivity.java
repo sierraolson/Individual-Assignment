@@ -145,6 +145,11 @@ public class ShelterListActivity extends AppCompatActivity {
                 startActivity(mapIntent);
                 return true;
 
+            case R.id.weather:
+                Intent profileIntent = new Intent(getApplicationContext(), WeatherActivity .class);
+                startActivity(profileIntent);
+                return true;
+
             default:
                 // If we got here, the user's action was not recognized.
                 // Invoke the superclass to handle it.

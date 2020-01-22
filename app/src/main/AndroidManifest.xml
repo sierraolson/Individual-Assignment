@@ -64,6 +64,7 @@
             android:label="@string/title_activity_maps123"></activity>
 
         <activity android:name=".controller.ShelterOmwPopup"></activity>
+        <activity android:name=".controller.WeatherActivity"></activity>
     </application>
 
 </manifest>
