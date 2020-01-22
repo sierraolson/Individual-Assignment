@@ -48,6 +48,7 @@ public class WeatherActivity extends Activity{
         public void onWeatherPressed(View view){
 
             final TextView textView = (TextView) findViewById(R.id.text);
+            final TextView textView2 = (TextView) findViewById(R.id.text2);
 //            System.out.println("pressed");
 //            final String[] s = new String[1];
             RequestQueue queue = Volley.newRequestQueue(this);
@@ -71,7 +72,9 @@ public class WeatherActivity extends Activity{
 
 
 
-                                    textView.setText(out + out2 + "");
+//                                    textView.setText(out + " "+ out2 + "");
+                                      textView2.setText(out);
+                                      textView.setText(out2);
 //                                    s[0] = response.substring(0, 500);
 
                                 }
