@@ -17,7 +17,17 @@ const getWeather = function(lat, lon) {
             let weather = JSON.parse(body)
             console.log(weather)
             let message = `It's ${weather.main.temp} degrees in ${weather.name}!`;
+            let determineDress;
+            let temp_val = parseFloat(weather.main.temp);
+            if (temp_val < 32) {
+                determineDress = 'Below freezing right now! Bundle up!'
+            } else if (temp_val >= 32 && temp_val < 60) {
+                determineDress = 'Kinda chilly, bring a jacket'
+            } else {
+                determineDress = 'Feel free to ditch the jacket!'
+            }
             console.log(message);
+            console.log(determineDress)
         }
     });
 }
