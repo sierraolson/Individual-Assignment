@@ -49,6 +49,7 @@ public class Location {
             return curLocation;
         } else {
             System.out.println("Not initialized CurLocation! Check ur GPS Sensors");
+            return null; 
         }
     }
 }
