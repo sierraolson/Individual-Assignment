@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FirstAssignment-master.iml" filepath="$PROJECT_DIR$/FirstAssignment-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Individual-Assignment.iml" filepath="$PROJECT_DIR$/Individual-Assignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/Individual-Assignment-app.iml" filepath="$PROJECT_DIR$/app/Individual-Assignment-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
