@@ -71,7 +71,7 @@ public class WeatherActivity extends Activity{
 
 
 
-                                    textView.setText(out + " You should wear: " + out2);
+                                    textView.setText(out + out2 + "");
 //                                    s[0] = response.substring(0, 500);
 
                                 }
